@@ -9,7 +9,9 @@ const kf = keyframes`
 `
 
 const StyledWrapper = styled.div`
-background-color: 
+background-color: white;
+display: flex;
+color: black;
 
 `
 
@@ -20,7 +22,6 @@ const NasaPhoto = (props) => {
             <div className="nav-bar">
                 <img className='App-logo' src='logo192.png'></img>
                 <h1>Welcome to my APOD</h1>
-                <button>Login</button>
               </div>
             <h2>{props.photo.title}</h2>
             <img src={props.photo.hdurl} />
