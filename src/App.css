@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -27,6 +27,8 @@
 .App-link {
   color: #61dafb; 
 }
+
+
 
 img {
   max-width: 75%;
